@@ -24,6 +24,7 @@ export default function Home() {
       <Head>
         <title>Elixir Quiz</title>
         <link rel="shortcut icon" href="https://elixir-lang.org/favicon.ico" />
+        <meta property="og:image" content={db.bg} />
       </Head>
       <QuizBackground backgroundImage={db.bg}>
         <QuizContainer>
